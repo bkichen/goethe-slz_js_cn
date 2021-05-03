@@ -1,0 +1,65 @@
+.acc_title{
+	height:30px;
+	padding:5px 0 10px;
+	line-height:30px;
+	font-weight:bold;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center
+}
+.acc_content{
+	line-height:24px;
+	color:#333;
+}
+
+.cntpage_k{text-align:center;padding:10px 0 0;}
+.cntpage{font-size:14px;font-weight:bold;color:#ff0000;text-decoration:none}
+.cntpage a{font-size:14px;font-weight:bold;color:#7C8185;text-decoration:none}
+.cntpage a:hover{font-size:14px;font-weight:bold;color:#ff0000;text-decoration:none}
+
+
+.page_k{text-align:right;padding:10px 5px 0;}
+.page{font-size:12px;color:#7C8185;text-decoration:none}
+.page a{font-size:12px;color:#7C8185;text-decoration:none}
+.page a:hover{font-size:12px;color:#ff0000;text-decoration:none}
+
+/*2*/
+
+#content_warp{width:100%;margin:0 auto;}
+
+.acc_right{float:right}
+.content_kk{margin:8px 10px 18px 15px;height:auto!important;height:400px;min-height:400px;}
+.content_kk div.cnt{color:#333;line-height:24px;margin:0px 10px;}
+.content_kk h2{margin:0;padding:0 5px 10px;font:bold 16px/25px arial,sans-serif;color:#333;text-align:center;border-bottom:1px #D0D0D0 solid;}
+.content_kk .author_k{height:30px;padding:4px 15px;text-align:right;vertical-align:top;color:#717070;line-height:20px;}
+.acc_content{text-align:justify;text-justify:inter-ideograph;line-height:24px;color:#333;}
+.download_k{padding:20px 15px 40px;}
+.yellow_b_line{color:#D95200;font-weight:bold;text-decoration:underline}
+.yellow_b_line a{color:#D95200;font-weight:bold;text-decoration:underline}
+.yellow_b_line a:hover{color:#B91400;font-weight:bold;text-decoration:underline}
+
+/*3*/
+
+.acc_pTit{background:#EEEEEE url(../images/images_w/line.gif) repeat-x left bottom;line-height:27px;height:27px;color:#000}
+.acc_input{border:1px #AFAFAF solid;width:480px;}
+.acc_textarea{border:1px #AFAFAF solid;width:480px;height:100px;}
+
+.acc_lytable{background:#F7F7F7 url(../images/images_w/line.gif) repeat-x left bottom;}
+.acc_table2{background:#F7F7F7 url(../images/images_w/line.gif) repeat-x left bottom;}
+
+.acc_topLine{background:url(../images/images_w/line.gif) repeat-x left bottom;}
+.error_style{color:#BB7521;font-weight:bold;cursor:pointer}
+.right_style{cursor:}
+
+.acc_td_left {font-family: Arial;font-size: 12px;padding-left: 20px;color:#333333;}
+.acc_td_left2{font-family: Arial;font-size: 12px;padding-left:40px;color:#333333;padding-top:4px;}
+
+.order_btn {display:block;margin-left:20px;width:62px;font-size:0;height:21px;background:url(../images/images_w/order_button001.gif) no-repeat left top;cursor:pointer}
+
+
+.acc_othertit{padding:20px 0 0 0;font-size:12px;color:#000;font-weight:bold;}
+
+.acc_zzList2{margin:4px 10px 10px 0;zoom:1}
+.acc_zzList2 td{padding:5px 0}
+.acc_zzList2 td a{background:url(http://www.daf-rs.com/components/Catalog_001/style/content/images/images_w/listIcon.gif) no-repeat left 3px; padding-left:15px;color:#003399;text-decoration:underline}
+.acc_zzList2 td a:hover{color:#003399;text-decoration:none}

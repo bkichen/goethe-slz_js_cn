@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>报错页面</title>
+<style type="text/css">
+*{ padding:0; margin:0;}
+body{ font:12px/22px "宋体"; word-break:break-all; text-align:left; background:#C0C0C0; color:#4E4E4E;}
+h1,h2,h3,h4,h5,h6{ font-size:13px;}
+ul,li{ list-style:none;}
+a{ color:#333; text-decoration:underline;}
+a:hover{ color:#ff722d; text-decoration:underline;}
+img{ border:0;}
+a img,a:hover img{ border:0;}
+button{ cursor:pointer;}
+em{ font-style:normal;}
+input,textarea{ padding:2px; color:#555;}
+
+#wrap{ width:697px; margin:150px auto;}
+.top{ height:10px; background:url(http://www.goethe-slz.js.cn/images/0326top.jpg) no-repeat;}
+.middle{ background:#F1F1F1; border-left:1px solid #9D9D9D; border-right:1px solid #9D9D9D;}
+.bottom{ height:9px; background:url(http://www.goethe-slz.js.cn/images/0326botom.jpg) no-repeat;}
+.logo{ background:url(http://www.goethe-slz.js.cn/images/0326t.jpg) left bottom no-repeat; padding:6px 0 7px 14px;}
+.icon{ float:left; margin:35px 0 0 116px;}
+.content{ float:left; display:inline; margin:35px 0 58px 16px; width:400px;}
+.content .title{ color:#FF0000; font-weight:bold; font-size:22px; line-height:30px;}
+.content .title em{ font-size:14px;}
+p{ margin-top:40px;}
+</style>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+<div id="wrap">
+	<div class="top"></div>
+	<div class="middle">
+		<div class="logo"><a href="javascript:;"><img src="images/logo.jpg"></a></div>
+		<img class="icon" src="images/icon.jpg">
+		<div class="content">
+			<div class="title">Hey? Error<br><em>抱歉，您访问的页面出现错误，如果影响您的使用请及时和我们联系。</em></div>
+			<p><span id="num"></span>  秒后 <a href="index.html">返回首页</a></p>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="bottom"></div>
+</div>
+<script type="text/javascript">
+var obj = document.getElementById('num');
+var current = 6;
+obj.innerHTML = current;
+var ss = setInterval( function(){
+	if(current > 0){
+		current--;
+	}
+	else{
+		clearInterval(ss);
+		location.href = "/";
+	}
+	obj.innerHTML = current;
+},1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.wrap{width:99%;margin:0 auto;}
+.wrap_border{width:99%;margin:0 auto;border:4px #E64700 solid;}
+#wrapleft{float:left;width:24.9%;text-align:left}
+#wrapright{float:right;width:75%;text-align:left}
+
+.clear {
+	CLEAR: both;font-size:0;line-height:0
+}

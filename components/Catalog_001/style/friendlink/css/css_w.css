@@ -1,0 +1,26 @@
+
+/**/
+.acc_wrapper{padding:0 0;text-align:left}
+.acc_barL{background:url(../images/images_w/titBar_left.gif) no-repeat left top;width:15px;}
+.acc_barR{background:url(../images/images_w/titBar_right.gif) no-repeat left top;width:15px;}
+.acc_barM{background:url(../images/images_w/titBar_mid.gif) repeat-x left top;font-size:12px;height:27px;line-height:27px;font-weight:bold;color:#000}
+.acc_barM a {background:url(../images/images_w/titBar_mid.gif) repeat-x left top;font-size:12px;height:27px;font-weight:bold;color:#000}
+.acc_barM a:hover {background:url(../images/images_w/titBar_mid.gif) repeat-x left top;font-size:12px;height:27px;font-weight:bold;color:#000}
+
+.acc_box{padding:15px 20px 18px;zoom:1}
+.acc_box2{padding:22px 20px 22px;zoom:1}
+
+.acc_select160{width:160px;font-size:12px;}
+
+
+.acc_table_linkList{}
+.acc_table_linkList td a{background:url(../images/images_w/icon.gif) no-repeat left 8px;color:#000;line-height:18px;padding:3px 0 3px 15px;text-decoration:none}
+.acc_table_linkList td a:hover{color:#000;text-decoration:underline}
+
+.acc_table_picList td{text-align:left;padding-bottom:6px;}
+.acc_table_picList img{border:1px #D6D6D6 solid;}
+
+.demo {width:600px; height:58px;margin:0 auto; overflow: hidden; white-space: nowrap; }/*white-space: nowrap; 才能让图片滚动在此等价于在demo1下加极限宽度*/
+.demo img {margin:0 3px;}
+.demo2{width:600px;}/*demo2宽度可消除IE下两头连接之间的么名间隙*/
+.demo1, .demo2, .demo1 ul, .demo2 ul, .demo1 ul li, .demo2 ul li{display:inline;}/*设置ul和li横排*/

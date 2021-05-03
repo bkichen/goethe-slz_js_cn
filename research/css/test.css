@@ -1,0 +1,26 @@
+
+/* 测试公用 */
+.testBox{ width:1200px; color:#000; font-size:14px; overflow:hidden; padding:50px 0; margin-left:auto; margin-right:auto;}
+.testBox .tstBack{ height:37px; margin-bottom:30px;}
+.testBox .tstBack a{ height:37px; float:right; color:#FFF; font-size:16px; line-height:37px; padding:0 14px 0 37px; background:#399b4e url(../images/tstbg.jpg) no-repeat left top;}
+.testBox .h2Tit{ font-size:24px; line-height:1.5; text-align:center; margin-bottom:36px;}
+.testBox .tstTxt{ line-height:30px; margin-bottom:40px;}
+.testBox .tstList{ line-height:20px; display:block; overflow:hidden; zoom:1; margin-bottom:30px;}
+.testBox .tstList dt{ margin-bottom:20px;}
+.testBox .tstList dd{ padding:4px 0 4px 26px; margin-left:24px;}
+.testBox .tstList dd input{ float:left; margin-left:-26px; margin-top:4px;}
+.testBox .tstBtn{ text-align:center; padding-top:20px;}
+.testBox .tstBtn a{ height:36px; font-size:16px; line-height:36px; color:#FFF; display:inline-block; padding:0 38px; background-color:#399b4e;}
+.testBox .tstBtn a:hover{ color:#FFF; background-color:#399b4e;}
+
+.tstLayBg{ width:100%; height:100%; min-height:100%; background:url(../images/bg5.png) repeat; position:fixed; left:0; top:0; z-index:88;}
+.tstLayCon{ width:480px; height:250px; margin:-125px 0 0 -240px; position:fixed; left:50%; top:50%; z-index:100; background-color:#FFF; border:1px solid #9b9b9b;}
+.tstLayCon .h2Tit{ height:70px; color:#146e27; font-size:26px; line-height:70px; padding-left:70px; border-bottom:1px solid #146e27; background:#e4eee6 url(../images/tstbg2.jpg) no-repeat 35px center;}
+.tstLayCon .txt{ height:64px; font-size:16px; text-align:center; padding:44px 10px 0;}
+.tstLayCon .txt span{ color:#b80000;}
+.tstLayCon .txt span strong{ font-size:24px; font-weight:normal;}
+.tstLayCon .btn{ text-align:center;}
+.tstLayCon .btn a{ height:40px; color:#FFF; line-height:40px; padding:0 40px; display:inline-block; background-color:#399b4e;}
+.tstLayCon .btn small{ font-size:18px; padding-left:26px; background:url(../images/tstbg3.png) no-repeat left center;}
+
+/* 测试公用 End */
